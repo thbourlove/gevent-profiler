@@ -332,11 +332,9 @@ def detach():
     _maybe_flush(_trace_output_file)
     _print_output(duration)
     _gls = {}
-    _curr_gl = None
     _states = {}
     _curr_states = {}
     _trace_began_at = None
-    curr_state = None
 
 
 def profile(func, *args, **kwargs):
